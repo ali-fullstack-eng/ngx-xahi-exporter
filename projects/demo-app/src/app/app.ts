@@ -30,7 +30,8 @@ testData = [
     color: 'Black',
     location: 'Shelf 5',
     bin: 'B-12',
-    last_updated: '2024-02-15'
+    last_updated: '2024-02-15',
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT05v9ZR-Zv0iztDQEACjBN9JQ4ftI9uNL6Og&s'
   },
     {
     id: 1,
@@ -52,7 +53,8 @@ testData = [
     color: 'Black',
     location: 'Shelf 5',
     bin: 'B-12',
-    last_updated: '2024-02-15'
+    last_updated: '2024-02-15',
+     img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6rzl1SmVeky4JIg18v0twyy2Xc9oPL8O5QQ&s'
   },
     {
     id: 1,
@@ -74,7 +76,8 @@ testData = [
     color: 'Black',
     location: 'Shelf 5',
     bin: 'B-12',
-    last_updated: '2024-02-15'
+    last_updated: '2024-02-15',
+     img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT05v9ZR-Zv0iztDQEACjBN9JQ4ftI9uNL6Og&s'
   },
     {
     id: 1,
@@ -96,7 +99,8 @@ testData = [
     color: 'Black',
     location: 'Shelf 5',
     bin: 'B-12',
-    last_updated: '2024-02-15'
+    last_updated: '2024-02-15',
+     img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6rzl1SmVeky4JIg18v0twyy2Xc9oPL8O5QQ&s'
   },
     {
     id: 1,
@@ -118,12 +122,13 @@ testData = [
     color: 'Black',
     location: 'Shelf 5',
     bin: 'B-12',
-    last_updated: '2024-02-15'
+    last_updated: '2024-02-15',
+     img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT05v9ZR-Zv0iztDQEACjBN9JQ4ftI9uNL6Og&s'
   },
   ];
 
   constructor(private exporter: XahiExporterService) {}
-myLogo = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1iOkO51HlKeecz9lqySJ8Ju_pokx2jrcwIw&s';
+myLogo = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWBuB632p-BzikvlVaPUTEubUuieUuoFM2TQ&s';
 download(type: 'PDF' | 'EXCEL' | 'POS' | 'CSV') {
   this.exporter.export({
     data: this.testData,
@@ -158,7 +163,7 @@ downloadPOS() {
     fileName: `Invoice_XH_${new Date().getTime()}`,
     data: premiumData,
     title: 'XAHI GLOBAL SOLUTIONS - FLAGSHIP STORE',
-    qrCode: this.myLogo, 
+    qrCode: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1iOkO51HlKeecz9lqySJ8Ju_pokx2jrcwIw&s', 
     companyAddress: 'Unit 102, Level 1, Gate Village 5, DIFC, UAE',
     companyPhone: '+971 4 362 2222',
     invoiceNo: 'XH-2026-0842', 
