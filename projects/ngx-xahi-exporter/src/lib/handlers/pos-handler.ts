@@ -139,9 +139,9 @@ export async function generatePOS(config: any, fileName: string) {
   doc.setFontSize(7).setFont('helvetica', 'italic').setTextColor(100);
   doc.text(doc.splitTextToSize(config.footerText || 'Thank you!', 70), 40, y, { align: 'center' });
   y += 9;
-  doc.setFont('helvetica', 'bold').setFontSize(8.5).setTextColor(0, 119, 181);
-  doc.textWithLink('Developed by: m-ali-angular-dev', 40, y, { 
-    url: 'https://www.linkedin.com/in/m-ali-angular-dev/', 
+doc.setFont('helvetica', 'bold').setFontSize(7.5).setTextColor(209, 72, 54); // Gmail Red color
+  doc.textWithLink('Support: seewayshelp@gmail.com', 40, y, { 
+    url: 'mailto:seewayshelp@gmail.com', 
     align: 'center' 
   });
 

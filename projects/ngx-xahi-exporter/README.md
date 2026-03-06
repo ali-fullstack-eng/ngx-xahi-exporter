@@ -3,9 +3,20 @@
 > **The most complete Angular export library** — PDF reports, Enterprise Excel sheets, Thermal POS receipts, and CSV files — all with a single method call.
 
 [![npm version](https://img.shields.io/npm/v/ngx-xahi-exporter.svg)](https://www.npmjs.com/package/ngx-xahi-exporter)
-[![Angular](https://img.shields.io/badge/Angular-21%2B-red)](https://angular.io/)
+[![Angular](https://img.shields.io/badge/Angular-15%2B-red)](https://angular.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Author](https://img.shields.io/badge/LinkedIn-m--ali--angular--dev-0077b5?logo=linkedin)](https://www.linkedin.com/in/m-ali-angular-dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-Source_Code-black?logo=github)](https://github.com/ali-fullstack-eng/ngx-xahi-exporter)
+[![Support](https://img.shields.io/badge/Support-seewayshelp%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:seewayshelp@gmail.com)
+
+🔗 **[View Source Code on GitHub](https://github.com/ali-fullstack-eng/ngx-xahi-exporter)**
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/ali-fullstack-eng/ngx-xahi-exporter?file=projects%2Fdemo-app%2Fsrc%2Fapp%2Fapp.ts)
+
+---
+
+## 🖼️ Output Preview
+
+> 📸 Real screenshots — check the [Live Demo StackBlitz](https://stackblitz.com/github/ali-fullstack-eng/ngx-xahi-exporter)
 
 ---
 
@@ -21,8 +32,6 @@
 | 🎨 **Theme Color** | Pass any hex color — headers and accents update automatically |
 | ⚡ **Zero Config UI** | Just pass your data array — no complex setup required |
 | 🔁 **Auto File Naming** | Auto timestamps filename if none is provided |
-| 🔁 **4-in-1** | exporter with built-in POS thermal receipt support |
- 
 
 ---
 
@@ -32,7 +41,7 @@
 npm install ngx-xahi-exporter exceljs jspdf jspdf-autotable
 ```
 
-> ⚠️ **Peer Dependencies:** `@angular/core ^21.1.0` and `@angular/common ^21.1.0` are required.
+> ⚠️ **Peer Dependencies:** `@angular/core >=15.0.0` and `@angular/common >=15.0.0` are required.
 
 ---
 
@@ -250,8 +259,8 @@ All handlers are **lazy-loaded** using dynamic `import()` — so you only pay th
 
 | Package | Version |
 |---|---|
-| `@angular/core` | `^21.1.0` |
-| `@angular/common` | `^21.1.0` |
+| `@angular/core` | `>=15.0.0` |
+| `@angular/common` | `>=15.0.0` |
 | `exceljs` | Latest |
 | `jspdf` | Latest |
 | `jspdf-autotable` | Latest |
@@ -357,10 +366,10 @@ export class ExportDemoComponent {
 
 ## 🌟 Star & Support
 
-**Built with ❤️ by [Muhammad Ali](https://www.linkedin.com/in/m-ali-angular-dev/)**  
+**Built with ❤️ by Muhammad Ali**  
 Angular Developer | Open Source Enthusiast
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/m-ali-angular-dev/)
+[![Email Me](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seewayshelp@gmail.com)
 
 ---
 
