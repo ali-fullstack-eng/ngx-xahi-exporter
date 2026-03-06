@@ -87,4 +87,4 @@ logo	string	URL or Base64 string for the company logo.
 qrCode	string	(POS Only) Base64 image string for QR code.
 footerText	string	Text to display at the bottom of the page/receipt.
 🛡️ License
-MIT - Developed by Xahi Brand
+MIT - Developed by Xahi
